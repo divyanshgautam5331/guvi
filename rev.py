@@ -1,4 +1,8 @@
-sentence = "The quick brown fox jumped over the lazy dog."
-words = sentence.split()
-sentence_rev = " ".join(reversed(words))
-print (sentence_rev)
+def main():
+    a=input("Enter a string:")
+
+    words = a.split()
+    a_rev = " ".join(reversed(words))
+    print (a_rev)
+
+main()
